@@ -15,7 +15,7 @@ def predict_price(sqft, bath, balcony, location, bhk):
     return np.round(prediction, 2)
 
 
-st.title("Pune House Price Predictor")
+st.title("Hyderabad House Price Predictor")
 
 # Get unique locations from the data
 locations = sorted(data['site_location'].unique())
